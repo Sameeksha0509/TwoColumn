@@ -1,0 +1,61 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Column Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ENV_NAME</th>
+                <th>PD_STATUS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Environment 1</td>
+                <td>Status 1</td>
+            </tr>
+            <tr>
+                <td>Environment 2</td>
+                <td>Status 2</td>
+            </tr>
+             Add more rows as needed 
+        </tbody>
+    </table>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Column Layout with Dropdowns</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <label for="env_name">ENV_NAME</label>
+            <select id="env_name" name="env_name">
+                <option value="env1">Environment 1</option>
+                <option value="env2">Environment 2</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+        <div class="column">
+            <label for="pd_status">PD_STATUS</label>
+            <select id="pd_status" name="pd_status">
+                <option value="status1">Status 1</option>
+                <option value="status2">Status 2</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+    </div>
+</body>
+</html>
+
